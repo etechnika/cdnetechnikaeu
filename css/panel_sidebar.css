@@ -1,0 +1,69 @@
+#sidebar #menu {
+    margin: 0 0 10px 0;
+    padding:5px 10px;
+    text-align:left;
+}
+
+#sidebar #menu a {
+    height:100%;
+    width:100%;
+    padding: 4px 0 0 5px;
+    color:#000;
+    text-decoration:none;
+    font-weight: normal;
+    display:block;
+}
+
+#sidebar #menu a:hover {
+    text-decoration: underline;
+}
+
+#sidebar #menu h1, h2, h3, h4, h5, h6 {
+	margin:5px 0 0 5px;
+}
+#sidebar #menu h4 {
+	margin:3px 0 0 10px;
+}
+
+#sidebar #menu p {
+	margin:3px 0 0 5px;
+	font-size: 0.9em;
+}
+
+#sidebar #submenu {
+    margin: 0 0 10px 0;
+    padding:5px 10px;
+    text-align:left;
+}
+
+#sidebar #submenu fieldset {
+    border:none;	
+}
+#sidebar #submenu h4 {
+    margin:5px;
+}
+
+#sidebar #submenu ul {
+    list-style:none;
+}
+
+#sidebar #submenu ul li {
+    margin-top:1px;
+    height:20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#sidebar #submenu ul li a {
+    height:100%;
+    width:100%;
+    padding: 4px 0 0 5px;
+    color:#333;
+    text-decoration:none;
+    font-weight: normal;
+    display:block;
+}
+
+#sidebar #submenu ul li a:hover {
+	text-decoration: underline;
+}

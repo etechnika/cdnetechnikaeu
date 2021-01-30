@@ -1,0 +1,60 @@
+/*
+
+	TableCloth
+	by Alen Grakalic, brought to you by cssglobe.com
+
+*/
+
+/* general styles */
+
+table.tablecloth, table.tablecloth td {
+	/*font:100% Arial, Helvetica, sans-serif;*/
+}
+
+table.tablecloth {
+	width:100%;
+	border-collapse:collapse;
+	margin:1em 0;
+}
+	
+table.tablecloth th,table.tablecloth td { 
+	text-align:left;
+	padding:.3em .5em;
+}
+
+table.tablecloth th{
+	color:#000;
+	background-color:#e8eaec;
+	}
+table.tablecloth td{background:#e5f1f4;border-bottom:1px solid #e8eaec;}
+
+/* tablecloth styles */
+
+table.tablecloth tr.even td{background:#f8f9fa;}
+table.tablecloth tr.odd td{background:#fff;}
+
+table.tablecloth th.over, table.tablecloth tr.even th.over, table.tablecloth tr.odd th.over{background:#4a98af;}
+table.tablecloth th.down, table.tablecloth tr.even th.down, table.tablecloth tr.odd th.down{background:#bce774;}
+table.tablecloth th.selected, table.tablecloth tr.even th.selected, table.tablecloth tr.odd th.selected{}
+
+table.tablecloth td.over, table.tablecloth tr.even td.over, table.tablecloth tr.odd td.over{background:#ecfbd4;}
+table.tablecloth td.down, table.tablecloth tr.even td.down, table.tablecloth tr.odd td.down{background:#bce774;color:#fff;}
+table.tablecloth td.selected, table.tablecloth tr.even td.selected, table.tablecloth tr.odd td.selected{background:#bce774;color:#555;}
+
+table.tablecloth td input {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+table.tablecloth td textarea {margin-left:0;margin-right:0;padding-left:0;padding-right:0;}
+
+/* use this if you want to apply different styleing to empty table cells*/
+/*table.tablecloth td.empty, table.tablecloth tr.odd td.empty, table.tablecloth tr.even td.empty{background:#fff;}*/
+
+
+/* Linki w naglowkach tabel */
+table.tablecloth th a, table.tablecloth th a:link, table.tablecloth th a:visited {
+	color:#000;
+	text-decoration:underline;
+}
+
+table.tablecloth th a:hover {
+	color:#000;
+	text-decoration:none;
+}

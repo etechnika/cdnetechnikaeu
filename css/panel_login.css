@@ -1,0 +1,47 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input
+{ margin: 0; padding: 0; }
+a img,:link img,:visited img { border: none; }
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10px;
+}
+
+#root {
+    text-align: left;
+}
+
+#root #wrapper {
+    margin:0px auto;
+    width:1000px;   
+}
+
+/* begin login form */
+#login_form {
+    margin:100px 0 0 200px;
+    padding: 10px;
+    height:158px;
+    width:483px;
+    background: url(../images/admin/login_box.gif) no-repeat top left;
+}
+
+#login_form form fieldset {
+    margin:30px 0 0 0;
+    border:none;
+    text-align: center;
+}
+#login_form form fieldset ol {
+	width: 350px;
+}
+#login_form form fieldset ol li {
+    margin: 3px 0 3px 10px;
+    list-style: none;
+    text-align: right;
+}
+#login_form form fieldset .error_list {
+    color:red;
+}
+#login_form form fieldset #btn_login {
+    margin: 30px 0 0 100px;
+}
+/* end login form */

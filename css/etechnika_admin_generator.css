@@ -1,0 +1,18 @@
+/* begin action section */
+ 
+/* end action section */
+
+/* begin filters section */
+/* end action section */
+
+/* begin edit section */
+#sf_admin_content .sf_admin_form {
+	text-align: left;
+}
+#sf_admin_content .sf_admin_form form fieldset label {
+	width: 200px;
+}
+#sf_admin_content .sf_admin_form form .sf_admin_actions {
+	text-align: center;
+}
+/* end edit section */
